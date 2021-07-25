@@ -28,7 +28,7 @@ server.get('/about',(req,res)=>{
 })
 server.get('*',(req,res)=>{
     res.render('404error',{
-        err_msg: 'Opps! Page Not Found'
+        err_msg: 'Opps! Page Not Found click here to go back'
     })
 })
 server.listen(port,()=>{
